@@ -1,12 +1,6 @@
-## Fwitter - Flutter Based Twitter Clone ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fthealphamerc) [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_twitter_clone?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_twitter_clone) ![GitHub forks](https://img.shields.io/github/forks/TheAlphamerc/flutter_twitter_clone?style=social) 
-![Dart CI](https://github.com/TheAlphamerc/flutter_twitter_clone/workflows/Dart%20CI/badge.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/TheAlphamerc/flutter_twitter_clone) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Thealphamerc/flutter_twitter_clone) ![GitHub last commit](https://img.shields.io/github/last-commit/Thealphamerc/flutter_twitter_clone)  ![GitHub issues](https://img.shields.io/github/issues-raw/Thealphamerc/flutter_twitter_clone) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Thealphamerc/flutter_twitter_clone) 
+## Fwitter - Flutter Based Twitter Clone 
 
 A working Twitter clone written in Flutter using Firebase auth,realtime,firestore database and storage.
-
-
-## Download App
-<a href="https://play.google.com/store/apps/details?id=com.thealphamerc.flutter_twitter_clone"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"></img></a>
-
 
 
 ## Features
@@ -227,18 +221,12 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
      
 ## Contributing
 
-If you wish to contribute a change to any of the existing feature or add new in this repo,
-please review our [contribution guide](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/CONTRIBUTING.md),
-and send a [pull request](https://github.com/TheAlphamerc/flutter_twitter_clone/pulls). I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
+To Do
 
 ## Created & Maintained By
+
+Original Repo by
 
 [Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/)) ([Insta](https://www.instagram.com/_sonu_sharma__)) ([Dev.to](https://dev.to/thealphamerc))
   ![Twitter Follow](https://img.shields.io/twitter/follow/thealphamerc?style=social) 
 
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> * [PayPal](https://paypal.me/shubhamsinghchahar/)
-
-## Sponsors
-* [Abdulbasit](https://github.com/AbdulbasitSaid)
