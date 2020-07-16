@@ -23,7 +23,7 @@ class SettingsAppBar extends StatelessWidget implements PreferredSizeWidget {
           )
         ],
       ),
-      iconTheme: IconThemeData(color: Colors.blue),
+      iconTheme: IconThemeData(color: TwitterColor.lightPink),
       backgroundColor: Colors.white,
     );
   }
