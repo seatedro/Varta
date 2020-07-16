@@ -39,6 +39,12 @@ class _SplashPageState extends State<SplashPage> {
     return Container(
       height: fullHeight(context),
       width: fullWidth(context),
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [const Color(0xFFEF81B4), const Color(0xFF1C82A2)]),
+      ),
       child: Container(
         height: height,
         width: height,
@@ -46,7 +52,6 @@ class _SplashPageState extends State<SplashPage> {
         child: Container(
           padding: EdgeInsets.all(50),
           decoration: BoxDecoration(
-            color: Colors.white,
             borderRadius: BorderRadius.all(
               Radius.circular(10),
             ),
@@ -54,13 +59,13 @@ class _SplashPageState extends State<SplashPage> {
           child: Stack(
             alignment: Alignment.center,
             children: <Widget>[
-              Platform.isIOS
-                  ? CupertinoActivityIndicator(
-                      radius: 35,
-                    )
-                  : CircularProgressIndicator(
-                      strokeWidth: 2,
-                    ),
+              // Platform.isIOS
+              //     ? CupertinoActivityIndicator(
+              //         radius: 35,
+              //       )
+              //     : CircularProgressIndicator(
+              //         strokeWidth: 2,
+              //       ),
               Image.asset(
                 'assets/images/icon-480.png',
                 height: 30,
