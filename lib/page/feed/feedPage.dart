@@ -40,10 +40,18 @@ class FeedPage extends StatelessWidget {
     return Scaffold(
       floatingActionButton: _floatingActionButton(context),
       backgroundColor: TwitterColor.mystic,
+      // backgroundColor: Colors.transparent, // Changed mystic to transparent.
       body: SafeArea(
         child: Container(
           height: fullHeight(context),
           width: fullWidth(context),
+          decoration: BoxDecoration(
+            // Added gradient to background.
+            gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [const Color(0xFFF2C9DD), const Color(0xFFC9D7F2)]),
+          ),
           child: RefreshIndicator(
             key: refreshIndicatorKey,
             onRefresh: () async {

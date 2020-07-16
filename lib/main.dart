@@ -18,7 +18,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
@@ -28,7 +27,8 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider<FeedState>(create: (_) => FeedState()),
         ChangeNotifierProvider<ChatState>(create: (_) => ChatState()),
         ChangeNotifierProvider<SearchState>(create: (_) => SearchState()),
-        ChangeNotifierProvider<NotificationState>(create: (_) => NotificationState()),
+        ChangeNotifierProvider<NotificationState>(
+            create: (_) => NotificationState()),
       ],
       child: MaterialApp(
         title: 'Fwitter',

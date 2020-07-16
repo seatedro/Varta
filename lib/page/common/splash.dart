@@ -68,8 +68,8 @@ class _SplashPageState extends State<SplashPage> {
               //       ),
               Image.asset(
                 'assets/images/icon-480.png',
-                height: 30,
-                width: 30,
+                height: 120,
+                width: 120,
               )
             ],
           ),

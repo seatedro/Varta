@@ -12,7 +12,7 @@ Widget customTitleText(String title, {BuildContext context}) {
   return Text(
     title ?? '',
     style: TextStyle(
-      color: Colors.black87,
+      color: Colors.white,
       fontFamily: 'HelveticaNeue',
       fontWeight: FontWeight.w900,
       fontSize: 20,
