@@ -37,28 +37,37 @@ class FeedPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      floatingActionButton: _floatingActionButton(context),
-      backgroundColor: TwitterColor.mystic,
-      body: SafeArea(
-        child: Container(
-          height: fullHeight(context),
-          width: fullWidth(context),
-          child: RefreshIndicator(
-            key: refreshIndicatorKey,
-            onRefresh: () async {
-              /// refresh home page feed
-              var feedState = Provider.of<FeedState>(context, listen: false);
-              feedState.getDataFromDatabase();
-              return Future.value(true);
-            },
-            child: _FeedPageBody(
-              refreshIndicatorKey: refreshIndicatorKey,
-              scaffoldKey: scaffoldKey,
+    return Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [const Color(0xFFf7a1d0), const Color(0xFFa1c6f7)],
+        ),
+      ),
+      child: Scaffold(
+        floatingActionButton: _floatingActionButton(context),
+        backgroundColor: Colors.transparent.withOpacity(0),
+        body: SafeArea(
+          child: Container(
+            height: fullHeight(context),
+            width: fullWidth(context),
+            child: RefreshIndicator(
+              key: refreshIndicatorKey,
+              onRefresh: () async {
+                /// refresh home page feed
+                var feedState = Provider.of<FeedState>(context, listen: false);
+                feedState.getDataFromDatabase();
+                return Future.value(true);
+              },
+              child: _FeedPageBody(
+                refreshIndicatorKey: refreshIndicatorKey,
+                scaffoldKey: scaffoldKey,
+              ),
             ),
           ),
         ),
-      ),
+      ), 
     );
   }
 }
@@ -99,7 +108,7 @@ class _FeedPageBody extends StatelessWidget {
                 ? SliverToBoxAdapter(
                     child: Container(
                       height: fullHeight(context) - 135,
-                      child: CustomScreenLoader(
+					  child: CustomScreenLoader(
                         height: double.infinity,
                         width: fullWidth(context),
                         backgroundColor: Colors.white,
@@ -119,7 +128,7 @@ class _FeedPageBody extends StatelessWidget {
                           list.map(
                             (model) {
                               return Container(
-                                color: Colors.white,
+                                color: Colors.transparent.withOpacity(0),
                                 child: Tweet(
                                   model: model,
                                   trailing: TweetBottomSheet().tweetOptionIcon(
@@ -142,7 +151,7 @@ class _FeedPageBody extends StatelessWidget {
         leading: _getUserAvatar(context),
         title: customTitleText('Home'),
         iconTheme: IconThemeData(color: Theme.of(context).primaryColor),
-        backgroundColor: Theme.of(context).appBarTheme.color,
+        backgroundColor: Colors.purple.withOpacity(0.2),
         bottom: PreferredSize(
           child: Container(
             color: Colors.grey.shade200,

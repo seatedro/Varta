@@ -31,6 +31,7 @@ class TwitterColor {
   static final Color paleSky = Color.fromRGBO(101, 119, 133, 1.0);
   static final Color ceriseRed = Color.fromRGBO(224, 36, 94, 1.0);
   static final Color paleSky50 = Color.fromRGBO(101, 118, 133, 0.5);
+  static final Color lightPink = Color.fromRGBO(239, 129, 180, 1.0);
 }
 
 class AppColor{
@@ -41,25 +42,26 @@ class AppColor{
   static final Color extraLightGrey = Color(0xffE1E8ED);
   static final Color extraExtraLightGrey = Color(0xfF5F8FA);
   static final Color white = Color(0xFFffffff);
+  static final Color pink = Color(0xffef81b4);
 }
 class AppTheme{
   static final ThemeData apptheme = ThemeData(
-    primarySwatch: Colors.blue,
+    primarySwatch: Colors.pink,
     // fontFamily: 'HelveticaNeue',
     backgroundColor: TwitterColor.white,
-    accentColor: TwitterColor.dodgetBlue,
+    accentColor: TwitterColor.lightPink,
     brightness: Brightness.light,
-    primaryColor: AppColor.primary,
+    primaryColor: AppColor.pink,
     cardColor: Colors.white,
     unselectedWidgetColor: Colors.grey,
-    bottomAppBarColor: Colors.white,
+    bottomAppBarColor: Colors.purple.withOpacity(0.3),
     bottomSheetTheme: BottomSheetThemeData(
       backgroundColor: AppColor.white
     ),
     appBarTheme: AppBarTheme(
       brightness: Brightness.light,
       color: TwitterColor.white,
-      iconTheme: IconThemeData(color: TwitterColor.dodgetBlue,),
+      iconTheme: IconThemeData(color: TwitterColor.lightPink,),
       elevation: 0,
       textTheme:  TextTheme(
         title: TextStyle(
@@ -68,14 +70,14 @@ class AppTheme{
           fontStyle: FontStyle.normal),
         )),
         tabBarTheme: TabBarTheme(
-          labelStyle: titleStyle.copyWith(color: TwitterColor.dodgetBlue),
+          labelStyle: titleStyle.copyWith(color: TwitterColor.lightPink),
           unselectedLabelColor: AppColor.darkGrey,
           unselectedLabelStyle: titleStyle.copyWith(color: AppColor.darkGrey),
-          labelColor: TwitterColor.dodgetBlue,
+          labelColor: TwitterColor.lightPink,
           labelPadding: EdgeInsets.symmetric(vertical: 12),
         ),
         floatingActionButtonTheme: FloatingActionButtonThemeData(
-          backgroundColor:   TwitterColor.dodgetBlue,
+          backgroundColor:   TwitterColor.lightPink,
         ),
         colorScheme: ColorScheme(
           background: Colors.white,
@@ -85,8 +87,8 @@ class AppTheme{
           onSecondary: Colors.white,
           onSurface: Colors.black,
           error: Colors.red,
-          primary: Colors.blue,
-          primaryVariant: Colors.blue,
+          primary: Colors.pink,
+          primaryVariant: Colors.pink,
           secondary: AppColor.secondary,
           secondaryVariant: AppColor.darkGrey,
           surface: Colors.white,

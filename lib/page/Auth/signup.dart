@@ -56,13 +56,13 @@ class _SignupState extends State<Signup> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            _entryFeild('Name', controller: _nameController),
-            _entryFeild('Enter email',
+            _entryFeild('Enter Name', controller: _nameController),
+            _entryFeild('Enter Email ID',
                 controller: _emailController, isEmail: true),
             // _entryFeild('Mobile no',controller: _mobileController),
-            _entryFeild('Enter password',
+            _entryFeild('Enter Password',
                 controller: _passwordController, isPassword: true),
-            _entryFeild('Confirm password',
+            _entryFeild('Confirm Password',
                 controller: _confirmController, isPassword: true),
             _submitButton(context),
 
@@ -105,7 +105,7 @@ class _SignupState extends State<Signup> {
             borderRadius: BorderRadius.all(
               Radius.circular(30.0),
             ),
-            borderSide: BorderSide(color: Colors.blue),
+            borderSide: BorderSide(color: TwitterColor.lightPink),
           ),
           contentPadding: EdgeInsets.symmetric(vertical: 15, horizontal: 20),
         ),
@@ -119,7 +119,7 @@ class _SignupState extends State<Signup> {
       width: MediaQuery.of(context).size.width,
       child: FlatButton(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-        color: TwitterColor.dodgetBlue,
+        color: TwitterColor.lightPink,
         onPressed: _submitForm,
         padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
         child: Text('Sign up', style: TextStyle(color: Colors.white)),
@@ -209,7 +209,7 @@ class _SignupState extends State<Signup> {
       key: _scaffoldKey,
       appBar: AppBar(
         title: customText(
-          'Sign Up',
+          'Make an account',
           context: context,
           style: TextStyle(fontSize: 20),
         ),
