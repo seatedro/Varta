@@ -28,7 +28,10 @@ A social media app written in Flutter using Firebase auth,realtime,firestore dat
 
 Welcome Page               |  Login Page               | Signup Page               |  Forgot Password Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_welcome.png?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_2.jpg?raw=true)|![]https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_sign_up.png?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_4.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_welcome.png?raw=true)
+|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_2.jpg?raw=true)
+|![]https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_sign_up.png?raw=true)
+|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_4.jpg?raw=true)|
 
 Home Page Sidebar         |  Home Page       |   Home Page               |  Home Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
