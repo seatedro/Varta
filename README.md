@@ -1,6 +1,6 @@
-## Fwitter - Flutter Based Twitter Clone 
+## Varta - Indian Social Media App
 
-A working Twitter clone written in Flutter using Firebase auth,realtime,firestore database and storage.
+A social media app written in Flutter using Firebase auth,realtime,firestore database and storage.
 
 
 ## Features
@@ -216,17 +216,6 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
 |               '-- unavailableTweet.dart
 |-- pubspec.yaml
 ```
-
 </details>
      
-## Contributing
-
-To Do
-
-## Created & Maintained By
-
-Original Repo by
-
-[Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/)) ([Insta](https://www.instagram.com/_sonu_sharma__)) ([Dev.to](https://dev.to/thealphamerc))
-  ![Twitter Follow](https://img.shields.io/twitter/follow/thealphamerc?style=social) 
 
