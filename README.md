@@ -3,15 +3,6 @@
 A social media app written in Flutter using Firebase auth,realtime,firestore database and storage.
 
 
-## Features
-* App features is mentioned at project section [ Click here](https://github.com/TheAlphamerc/flutter_twitter_clone/projects/1)
-* Messaging chat section status can be seen at [here](https://github.com/TheAlphamerc/flutter_twitter_clone/projects/2)
-
- :boom: Fwitter app now uses both firebase `realtime` and `firestore` database.:boom:
-* In branch **firetore** Fwitter uses `Firestore` database for app. 
-* In branch **Master** and **realtime_db** Fwitter uses `Firebase Realtime` database for app.
-
-
 ## Dependencies
 <details>
      <summary> Click to expand </summary>
@@ -37,55 +28,55 @@ A social media app written in Flutter using Firebase auth,realtime,firestore dat
 
 Welcome Page               |  Login Page               | Signup Page               |  Forgot Password Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Auth/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Auth/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Auth/screenshot_3.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Auth/screenshot_4.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_3.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_4.jpg?raw=true)|
 
-Home Page Sidebaar         |  Home Page       |   Home Page               |  Home Page
+Home Page Sidebar         |  Home Page       |   Home Page               |  Home Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Home/screenshot_5.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Home/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Home/screenshot_7.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Home/screenshot_6.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_5.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_7.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_6.jpg?raw=true)|
 
 Compose Tweet Page                  | Reply To Tweet       |   Reply to Tweet      |     Compose Retweet with comment
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/CreateTweet/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/CreateTweet/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/CreateTweet/screenshot_4.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/CreateTweet/screenshot_3.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/CreateTweet/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/CreateTweet/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/CreateTweet/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/CreateTweet/screenshot_3.jpg?raw=true)|
 
 Tweet Detail Page         |  Tweet Thread              |   Nested Tweet Thread     | Tweet options
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/TweetDetail/screenshot_3.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/TweetDetail/screenshot_4.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/TweetDetail/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/TweetDetail/screenshot_2.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_3.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_2.jpg?raw=true)|
 
 Notification Page         |  Notification Page         |   Notification Page       | Notification Setting Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Notification/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Notification/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Notification/screenshot_3.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Notification/screenshot_4.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Notification/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Notification/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Notification/screenshot_3.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Notification/screenshot_4.jpg?raw=true)|
 
 Profile Page                |  Profile Page            |   Profile  Page       | Profile  Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Profile/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Profile/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Profile/screenshot_4.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Profile/screenshot_7.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Profile/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Profile/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Profile/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Profile/screenshot_7.jpg?raw=true)|
 
 Select User Page                |  Chat Page            |    Chat Users List       | Conversation Info Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Chat/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Chat/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Chat/screenshot_3.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Chat/screenshot_4.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Chat/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Chat/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Chat/screenshot_3.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Chat/screenshot_4.jpg?raw=true)|
 
 Search Page                |  Search Setting Page            |  Tweet Options - 1     | Tweet Options - 2
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Search/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Search/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/TweetDetail/screenshot_5.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/TweetDetail/screenshot_6.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Search/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Search/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_5.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_6.jpg?raw=true)|
 
 
 Setting Page                |  Account Setting Page    |  Privacy Setting Page    | Privacy Settings Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_2.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_4.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_3.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_3.jpg?raw=true)|
 
 Content Prefrences Page      |  Display Setting Page    |  Data Settings Page    | Accessibility Settings
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_5.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_6.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_7.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_8.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_5.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_6.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_7.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_8.jpg?raw=true)|
 
   Users who likes Tweet        |  About Setting Page    |  Licenses Settings     |  Settings
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/TweetDetail/screenshot_7.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_9.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_10.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_twitter_clone/blob/master/screenshots/Settings/screenshot_81.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_7.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_9.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_10.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_81.jpg?raw=true)|
 
 
 
 
 
 ## Getting started 
-* Project setup instructions are given at [Wiki](https://github.com/TheAlphamerc/flutter_twitter_clone/wiki/Gettings-Started) section.
+* Project setup instructions are given at [Wiki](https://github.com/rohitp934/Varta/wiki/Gettings-Started) section.
 
 ## Directory Structure
 <details>
@@ -218,4 +209,5 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
 ```
 </details>
      
+
 
