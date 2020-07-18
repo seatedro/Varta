@@ -12,7 +12,7 @@ Widget customTitleText(String title, {BuildContext context}) {
   return Text(
     title ?? '',
     style: TextStyle(
-      color: Colors.black87,
+      color: Colors.white,
       fontFamily: 'HelveticaNeue',
       fontWeight: FontWeight.w900,
       fontSize: 20,
@@ -74,7 +74,7 @@ Widget customIcon(
                   ? 'AwesomeRegular'
                   : isFontAwesomeSolid ? 'AwesomeSolid' : 'Fontello'),
       size: size,
-      color: isEnable ? Theme.of(context).primaryColor : iconColor,
+      color: isEnable ? Colors.white /*Theme.of(context).primaryColor*/ : iconColor,
     ),
   );
 }

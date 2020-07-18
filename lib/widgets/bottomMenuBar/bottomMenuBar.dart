@@ -27,10 +27,10 @@ class _BottomMenubarState extends State<BottomMenubar>{
     var state = Provider.of<AppState>(context,);
     return Container(
       height: 50,
-      decoration: BoxDecoration(color: Theme.of(context).bottomAppBarColor, boxShadow: [
-            BoxShadow(
-                color: Colors.black12, offset: Offset(0,-.1), blurRadius: 0)
-          ]),
+      decoration: BoxDecoration( color: Colors.purple.withOpacity(0.3)),//Theme.of(context).bottomAppBarColor),//, boxShadow: [
+            //BoxShadow(
+               // color: Colors.black12, offset: Offset(0,-.1), blurRadius: 0)
+          //]),
       child:  Row(
                 mainAxisSize: MainAxisSize.max,
                 crossAxisAlignment: CrossAxisAlignment.center,

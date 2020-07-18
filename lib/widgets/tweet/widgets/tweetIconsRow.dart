@@ -133,8 +133,8 @@ class TweetIconsRow extends StatelessWidget {
             SizedBox(width: 5),
             customText(getPostTime2(model.createdAt), style: textStyle14),
             SizedBox(width: 10),
-            customText('Fwitter for Android',
-                style: TextStyle(color: Theme.of(context).primaryColor))
+            customText('Varta for Android',
+                style: TextStyle(color: Colors.purple.withOpacity(0.7)))
           ],
         ),
         SizedBox(height: 5),

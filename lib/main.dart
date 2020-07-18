@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider<NotificationState>(create: (_) => NotificationState()),
       ],
       child: MaterialApp(
-        title: 'Fwitter',
+        title: 'Varta',
         theme: AppTheme.apptheme.copyWith(
           textTheme: GoogleFonts.muliTextTheme(
             Theme.of(context).textTheme,

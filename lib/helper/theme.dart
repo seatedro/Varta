@@ -54,7 +54,7 @@ class AppTheme{
     primaryColor: AppColor.pink,
     cardColor: Colors.white,
     unselectedWidgetColor: Colors.grey,
-    bottomAppBarColor: Colors.white,
+    bottomAppBarColor: Colors.purple.withOpacity(0.3),
     bottomSheetTheme: BottomSheetThemeData(
       backgroundColor: AppColor.white
     ),

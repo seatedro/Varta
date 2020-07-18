@@ -22,7 +22,7 @@ class _WelcomePageState extends State<WelcomePage> {
       width: MediaQuery.of(context).size.width,
       child: FlatButton(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-        color: TwitterColor.dodgetBlue,
+        color: TwitterColor.lightPink,
         onPressed: () {
           var state = Provider.of<AuthState>(context,listen: false);
           Navigator.push(
@@ -33,7 +33,7 @@ class _WelcomePageState extends State<WelcomePage> {
           );
         },
         padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
-        child: TitleText('Create account', color: Colors.white),
+        child: TitleText('Make an account', color: Colors.white),
       ),
     );
   }
@@ -44,6 +44,12 @@ class _WelcomePageState extends State<WelcomePage> {
         padding: EdgeInsets.symmetric(
           horizontal: 40,
         ),
+        decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [const Color(0xFFf7a1d0), const Color(0xFFa1c6f7)],
+        )),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -54,8 +60,9 @@ class _WelcomePageState extends State<WelcomePage> {
             ),
             Spacer(),
             TitleText(
-              'See what\'s happening in the world right now.',
+              'Welcome to Varta.',
               fontSize: 25,
+              color: Colors.white
             ),
             SizedBox(
               height: 20,
@@ -67,7 +74,7 @@ class _WelcomePageState extends State<WelcomePage> {
               crossAxisAlignment: WrapCrossAlignment.center,
               children: <Widget>[
                 TitleText(
-                  'Have an account already?',
+                  'Already registered? ',
                   fontSize: 14,
                   fontWeight: FontWeight.w300,
                 ),
@@ -87,7 +94,7 @@ class _WelcomePageState extends State<WelcomePage> {
                     child: TitleText(
                       ' Log in',
                       fontSize: 14,
-                      color: TwitterColor.dodgetBlue,
+                      color: Colors.white,//pink.withOpacity(0.8),//TwitterColor.lightPink,
                       fontWeight: FontWeight.w300,
                     ),
                   ),

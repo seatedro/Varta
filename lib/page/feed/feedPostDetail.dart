@@ -82,57 +82,70 @@ class _FeedPostDetailState extends State<FeedPostDetail> {
             .removeLastTweetDetail(postId);
         return Future.value(true);
       },
-      child: Scaffold(
-        floatingActionButton: _floatingActionButton(),
-        backgroundColor: Theme.of(context).backgroundColor,
-        body: CustomScrollView(
-          slivers: <Widget>[
-            SliverAppBar(
-              pinned: true,
-              title: customTitleText('Thread'),
-              iconTheme: IconThemeData(color: Theme.of(context).primaryColor),
-              backgroundColor: Theme.of(context).appBarTheme.color,
-              bottom: PreferredSize(
-                child: Container(
-                  color: Colors.grey.shade200,
-                  height: 1.0,
+      child: Container(
+        decoration: BoxDecoration(
+          // Added container to Scaffold to display gradient.
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [const Color(0xFFf7a1d0), const Color(0xFFa1c6f7)],
+          ),
+        ),
+        child: Scaffold(
+          floatingActionButton: _floatingActionButton(),
+          backgroundColor: Colors.transparent.withOpacity(
+              0), // Removed contextual background and added transparent one.
+          body: CustomScrollView(
+            slivers: <Widget>[
+              SliverAppBar(
+                pinned: true,
+                title: customTitleText('Thread'),
+                iconTheme: IconThemeData(
+                    color: Colors.white), // Changed arrow to white
+                backgroundColor: Colors.transparent,
+                // Changed contextual theme to purple
+                bottom: PreferredSize(
+                  child: Container(
+                    color: Colors.grey.shade200,
+                    height: .0,
+                  ),
+                  preferredSize: Size.fromHeight(0.0),
                 ),
-                preferredSize: Size.fromHeight(0.0),
               ),
-            ),
-            SliverList(
-              delegate: SliverChildListDelegate(
-                [
-                  state.tweetDetailModel == null ||
-                          state.tweetDetailModel.length == 0
-                      ? Container()
-                      : _tweetDetail(state.tweetDetailModel?.last),
-                  Container(
-                    height: 6,
-                    width: fullWidth(context),
-                    color: TwitterColor.mystic,
-                  )
-                ],
+              SliverList(
+                delegate: SliverChildListDelegate(
+                  [
+                    state.tweetDetailModel == null ||
+                            state.tweetDetailModel.length == 0
+                        ? Container()
+                        : _tweetDetail(state.tweetDetailModel?.last),
+                    Container(
+                      height: 5,
+                      width: fullWidth(context),
+                      color: Colors.purple.withOpacity(0.25),
+                    )
+                  ],
+                ),
               ),
-            ),
-            SliverList(
-              delegate: SliverChildListDelegate(
-                state.tweetReplyMap == null ||
-                        state.tweetReplyMap.length == 0 ||
-                        state.tweetReplyMap[postId] == null
-                    ? [
-                        Container(
-                          child: Center(
-                              //  child: Text('No comments'),
-                              ),
-                        )
-                      ]
-                    : state.tweetReplyMap[postId]
-                        .map((x) => _commentRow(x))
-                        .toList(),
-              ),
-            )
-          ],
+              SliverList(
+                delegate: SliverChildListDelegate(
+                  state.tweetReplyMap == null ||
+                          state.tweetReplyMap.length == 0 ||
+                          state.tweetReplyMap[postId] == null
+                      ? [
+                          Container(
+                            child: Center(
+                                //  child: Text('No comments'),
+                                ),
+                          )
+                        ]
+                      : state.tweetReplyMap[postId]
+                          .map((x) => _commentRow(x))
+                          .toList(),
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
