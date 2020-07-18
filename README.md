@@ -28,11 +28,11 @@ A social media app written in Flutter using Firebase auth,realtime,firestore dat
 
 Welcome Page               |  Login Page               | Signup Page               |  Forgot Password Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_3.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_4.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_welcome.png?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_2.jpg?raw=true)|![]https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_sign_up.png?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Auth/screenshot_4.jpg?raw=true)|
 
 Home Page Sidebar         |  Home Page       |   Home Page               |  Home Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_5.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_7.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_6.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_5.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_pictures.jpeg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_6.jpg?raw=true)|
 
 Compose Post Page                  | Reply To Post       |   Reply to Post      |     Compose RePost with comment
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
@@ -40,7 +40,7 @@ Compose Post Page                  | Reply To Post       |   Reply to Post      
 
 Post Detail Page         |  Post Thread              |   Nested Post Thread     | Post options
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_3.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_2.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_post_detail.png?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_2.jpg?raw=true)|
 
 Notification Page         |  Notification Page         |   Notification Page       | Notification Setting Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
@@ -61,7 +61,7 @@ Search Page                |  Search Setting Page            |  Post Options - 1
 
 Setting Page                |  Account Setting Page    |  Privacy Setting Page    | Privacy Settings Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_3.jpg?raw=true)|
+![](https://github.com/rohitp934/Varta/blob/master/screenshots/VartaSpecific/varta_settings.png?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_3.jpg?raw=true)|
 
 Content Prefrences Page      |  Display Setting Page    |  Data Settings Page    | Accessibility Settings
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
