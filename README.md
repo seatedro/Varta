@@ -34,11 +34,11 @@ Home Page Sidebar         |  Home Page       |   Home Page               |  Home
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_5.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_7.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Home/screenshot_6.jpg?raw=true)|
 
-Compose Tweet Page                  | Reply To Tweet       |   Reply to Tweet      |     Compose Retweet with comment
+Compose Post Page                  | Reply To Post       |   Reply to Post      |     Compose RePost with comment
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/rohitp934/Varta/blob/master/screenshots/CreateTweet/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/CreateTweet/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/CreateTweet/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/CreateTweet/screenshot_3.jpg?raw=true)|
 
-Tweet Detail Page         |  Tweet Thread              |   Nested Tweet Thread     | Tweet options
+Post Detail Page         |  Post Thread              |   Nested Post Thread     | Post options
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_3.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_4.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_2.jpg?raw=true)|
 
@@ -54,7 +54,7 @@ Select User Page                |  Chat Page            |    Chat Users List    
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/rohitp934/Varta/blob/master/screenshots/Chat/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Chat/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Chat/screenshot_3.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Chat/screenshot_4.jpg?raw=true)|
 
-Search Page                |  Search Setting Page            |  Tweet Options - 1     | Tweet Options - 2
+Search Page                |  Search Setting Page            |  Post Options - 1     | Post Options - 2
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/rohitp934/Varta/blob/master/screenshots/Search/screenshot_1.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Search/screenshot_2.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_5.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_6.jpg?raw=true)|
 
@@ -67,7 +67,7 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_5.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_6.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_7.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_8.jpg?raw=true)|
 
-  Users who likes Tweet        |  About Setting Page    |  Licenses Settings     |  Settings
+  Users who likes Post        |  About Setting Page    |  Licenses Settings     |  Settings
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/rohitp934/Varta/blob/master/screenshots/TweetDetail/screenshot_7.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_9.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_10.jpg?raw=true)|![](https://github.com/rohitp934/Varta/blob/master/screenshots/Settings/screenshot_81.jpg?raw=true)|
 
