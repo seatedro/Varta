@@ -219,14 +219,4 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
 
 </details>
      
-## Contributing
-
-To Do
-
-## Created & Maintained By
-
-Original Repo by
-
-[Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/)) ([Insta](https://www.instagram.com/_sonu_sharma__)) ([Dev.to](https://dev.to/thealphamerc))
-  ![Twitter Follow](https://img.shields.io/twitter/follow/thealphamerc?style=social) 
 
