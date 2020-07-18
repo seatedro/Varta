@@ -32,4 +32,4 @@ Pull Request rejections are not a bad thing. It just means you need to fix somet
 
 ## Contacting Us
 
-- Email: `sonu.sharma045@gmail.com`
+- Email: `rohitp934@gmail.com`
