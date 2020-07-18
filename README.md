@@ -1,6 +1,6 @@
 ## Varta - Indian Social Media App
 
-A working Twitter clone written in Flutter using Firebase auth,realtime,firestore database and storage.
+A social media app written in Flutter using Firebase auth,realtime,firestore database and storage.
 
 
 ## Features
@@ -216,7 +216,6 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
 |               '-- unavailableTweet.dart
 |-- pubspec.yaml
 ```
-
 </details>
      
 
